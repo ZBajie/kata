@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header title="Welcome kata" />
-      <RepeatText count="4" text="Welcome kata" />
+      <RepeatText count="4" text="Welcome home kata" />
     </>
   )
 }
