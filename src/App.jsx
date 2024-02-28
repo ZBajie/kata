@@ -4,6 +4,7 @@ import Header from "./components/Header/Header"
 import RepeatText from "./components/RepeatText/RepeatText"
 import List from "./components/List/List"
 import Counter from "./components/Counter/Counter"
+import Check from "./components/Check/Check"
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <RepeatText count="4" text="Welcome home kata" />
       <List animals={animalList} />
       <Counter />
+      <Check />
     </>
   )
 }
