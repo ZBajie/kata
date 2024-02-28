@@ -5,6 +5,7 @@ import RepeatText from "./components/RepeatText/RepeatText"
 import List from "./components/List/List"
 import Counter from "./components/Counter/Counter"
 import Check from "./components/Check/Check"
+import Radio from "./components/Radio/Radio"
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <List animals={animalList} />
       <Counter />
       <Check />
+      <Radio />
     </>
   )
 }
