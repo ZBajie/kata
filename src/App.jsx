@@ -9,6 +9,8 @@ import Radio from "./components/Radio/Radio"
 import Dropdown from "./components/Dropdown/Dropdown"
 import carlist from "./components/Dropdown/carlist.json"
 import Todo from "./components/Todo/Todo"
+import ColorBox from "./components/ColorBox/ColorBox"
+import colors from "./components/ColorBox/colors.json"
 function App() {
   return (
     <>
@@ -20,6 +22,7 @@ function App() {
       <Radio />
       <Dropdown carlist={carlist} />
       <Todo />
+      <ColorBox colors={colors} />
     </>
   )
 }
