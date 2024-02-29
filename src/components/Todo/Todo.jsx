@@ -11,7 +11,6 @@ const Todo = () => {
 
   const onSubmit = (e) => {
     e.preventDefault()
-    //textArray.push({ id: textId++, text: text })
     setTextArray((prevTextArray) => [
       ...prevTextArray,
       { id: textId, text: text },
