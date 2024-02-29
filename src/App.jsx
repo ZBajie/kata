@@ -6,6 +6,8 @@ import List from "./components/List/List"
 import Counter from "./components/Counter/Counter"
 import Check from "./components/Check/Check"
 import Radio from "./components/Radio/Radio"
+import Dropdown from "./components/Dropdown/Dropdown"
+import carlist from "./components/Dropdown/carlist.json"
 function App() {
   return (
     <>
@@ -15,6 +17,7 @@ function App() {
       <Counter />
       <Check />
       <Radio />
+      <Dropdown carlist={carlist} />
     </>
   )
 }
