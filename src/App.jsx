@@ -8,6 +8,7 @@ import Check from "./components/Check/Check"
 import Radio from "./components/Radio/Radio"
 import Dropdown from "./components/Dropdown/Dropdown"
 import carlist from "./components/Dropdown/carlist.json"
+import Todo from "./components/Todo/Todo"
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
       <Check />
       <Radio />
       <Dropdown carlist={carlist} />
+      <Todo />
     </>
   )
 }
